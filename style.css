@@ -1,0 +1,180 @@
+*{
+	margin:  0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+/* vh means viewport height and viewport width */
+/* Relative - the element is positioned relative to its normal position. 
+   Absolute - the element is positioned absolutely to its first positioned parent */
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: url(img/gg.jpg);
+	/* background-position: center; */
+	background-size: cover ;
+  height: fit-content;
+	position: relative;
+}
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 35px;
+    color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+  
+
+    border: 5px solid #fff;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+a{
+    color: azure;
+font-weight: bolder;
+}
+.hero-btn:hover{
+    border: 1px solid #5567b8;
+    background: #36f4eb;
+    transition: 1s;
+}
+ul li:hover
+{
+    border: 1px solid #546094;
+    background: #145552;
+    transition: 1s;
+    display: flexbox;
+    justify-content: space-between;
+}
+
+.text{
+    color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.text h2{
+    font-size: 35px;
+    margin: 100px 0 0 40px;
+
+}
+.text p{
+    margin: 20px 0 0 40px;
+    font-size: 33px;
+    text-align: center;
+
+    color: #fff;
+}
+.text-box a {
+    text-decoration: none;
+    color: black;
+
+}
+.text-col{
+    position: absolute;
+    top: 50%;
+    color: aliceblue;
+    margin-left: 20%
+    
+}
+
+.text-col tr td p{
+    margin: 10px 0 0 40px;
+    font-size: 13px;
+    color: #fff;
+}
+.head{
+    color: #fff;
+    font-size: 18px;
+    justify-content: center;  
+}
+.pics{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pics tr{
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.pics tr td img{
+    margin: 10px 0 0 40px;
+}
+
+.cont{
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.cont a {
+    color: rgb(57, 185, 121)  ;
+    background-color: transparent;
+    text-decoration: none;
+}
+.hh{
+       font-size: 25px;
+font-weight: bold;
+border-bottom: 3px solid rgb(255, 255, 255);
+color: white;
+height: fit-content;
+text-align: center;
+}
+.con{
+    text-align: center;
+    color: azure;
+    font-size: 30px;
+   
+}
+.tbl{
+    margin-top: 5%;
+    color: azure;
+    font-size: larger;
+}
+.oo{
+    padding-left: 5%;
+}
+
